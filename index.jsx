@@ -26,13 +26,13 @@ class App extends React.Component {
         return (
             <div>
                 <Button/>
-                <R  esult/>
+                <Result/>
             </div>
         )
     }
 }
 
 ReactDOM.render(
-    <Button/>,
+    <App/>,
     document.getElementById('root')
 );
